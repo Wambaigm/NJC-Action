@@ -14,7 +14,7 @@ jobs:
         run: echo 'running test...'
       
       - name: "pull code"
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
         
       - name: Deployment system
         uses: netlify/actions/cli@master
